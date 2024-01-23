@@ -1,0 +1,271 @@
+/* Fontlarına bak google fontstan ekle */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; ;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #492E87;
+    position:fixed;
+    padding-top:16px;
+    padding-bottom: 16px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    margin-bottom: 80px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar button{
+    border:none;
+    color:white;
+    padding: 6px 16px;
+    background-color: rgb(80, 155, 57);
+}
+
+.navbar .navbar-brand{
+    padding-left:100px;
+    font-weight:bold;
+    font-family: "Kanit";
+}
+
+.navbar-toggler {
+    color:#FF0000;
+}
+
+
+/* Header */
+
+.header{
+    background-color:rgb(255, 204, 0);
+    padding-top: 150px;
+    padding-bottom:3rem;
+}
+
+.header h1{
+    line-height: 1 !important;
+    font-weight:300;
+}
+
+@media (min-width:1200px){
+    .header h1{
+        font-size:5rem;
+    }
+}
+.header p{
+    font-size: 1.25rem;
+}
+.miniresim{
+    width:162px;
+    height:48px;
+}
+.yuvarlak{
+    position:relative;
+    width:400px;
+    height:400px;
+}
+.bigcircle{
+    width:22rem;
+    height:22rem;
+    border-radius: 50%;
+    background-color: gray;
+    background-image: linear-gradient(62deg, #FFFFFF 0%, #6284FF 0%, #FF0000 100%);    
+    transform:rotate(-90deg);
+    position: absolute;
+    left:1rem;
+}
+
+.bi-x{
+    font-size: 3rem !important;
+    font-weight: bold;
+    transform: rotate(-40deg);
+    color:#2037f0;
+    position:absolute;
+    top:0rem;
+    left:20rem;
+    
+}
+
+
+.second_circle{
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background-color: #2037f0;
+    transform:rotate(-90deg);
+    position:absolute;
+    top:18rem;
+    left:1rem;
+    
+}
+
+.phone{
+    width: 200px;
+    height:400px;
+    z-index: 1 !important;
+    position:absolute;
+    left:6rem;
+}
+
+/* Aside */
+
+aside{
+    background:linear-gradient(45deg,#2037f0,#9f1ae2);
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+aside h2{
+    margin-bottom:24px;
+}
+
+aside img{
+    width:113px;
+    height:48px;
+}
+
+
+/* Feature */
+
+.features{
+    background-color: rgb(33, 36, 61);
+}
+
+.bigcircle2{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
+    transform:rotate(-90deg);
+    position: absolute;
+    left:-50px;
+    top:50px;
+}
+.phone2{
+    width: 200px;
+    height:400px;
+    z-index: 1 !important;
+    position:absolute;
+    left:50px;
+    top:0px;
+}
+.circle2{
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    background-color:blue;   
+    position:absolute;
+    top:2rem;
+    left:16rem;
+  
+}
+#x2{
+    font-size: 3rem !important;
+    font-weight: bold;
+    transform: rotate(-40deg);
+    color:#2037f0;
+    position:absolute;
+    left:-1.5rem;
+    top:16.5rem;
+}
+
+
+
+.aile{
+    background-image:linear-gradient(rgb(0,0,0,0.1), rgb(64, 0, 130));
+    color:#fff;
+}
+.aile p{
+    color:#fff;
+}
+
+#download{
+    background-image:linear-gradient(rgb(0,0,0,0.7), rgb(50,50,50,0.7)), url("Greater_Goodies_TV_2022.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#download h2{
+    color:#fff;
+}
+
+.bi{
+    font-size:4rem;
+}
+
+.bi-phone, .bi-camera, .bi-gift, .bi-patch-check{
+    color:rgb(255, 217, 0);
+}
+.bi-person{
+    font-size:1rem;
+    color:#fff;
+}
+
+.card{
+    border:none;
+}
+
+ /* design */
+section{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.start{
+    background-image: url("..\New\ Age\ -\ Start\ Bootstrap\ Theme.html");
+}
+
+/* get sectionı */
+
+.get{
+    background-image: linear-gradient(rgb(0, 0, 255),rgb(214, 51, 132)) ;
+}
+
+@media screen and (max-width: 991px) {
+   .get img{
+    margin-left:6.5rem;
+   }   
+}
+
+footer a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+/* modal */
+
+.modal .modal-header{
+    background-image: linear-gradient(45deg,rgb(0, 0, 255),rgb(214, 51, 132)) ;
+    color:white;
+    padding-top:25px ;
+    padding-bottom:25px;
+}
+ 
+.modal input{
+    width:350px;
+    border-radius: 5%;
+    border:1px solid #e8f0fe;
+    height:50px;
+}
+
+ .modal input:active{
+    border:1px solid blue;
+ }
+
+ .modal-footer button {
+     box-shadow: 1px 1px 1px rgb(3, 11, 134);
+     text-align:center; 
+
+ }
+
